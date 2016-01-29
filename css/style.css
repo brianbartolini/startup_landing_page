@@ -1,0 +1,26 @@
+
+h1{
+	font-size: 30px;
+
+}
+
+body {
+	background-color: LightGrey;
+}
+
+div{
+	border: 1px solid Chocolate;
+
+}
+
+.menu-bar {
+	display: inline-block;
+	
+}
+
+header{
+	background-color: white;
+	padding: 1em;
+	
+
+}
