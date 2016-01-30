@@ -1,8 +1,17 @@
 
-h1{
-	font-size: 30px;
+
+.top-navigation {
+	background-color: #fff;
 
 }
+
+
+.top-navigation > .content {
+	width: 60rem;
+	height: 4.375rem;
+	margin: 0px auto;
+}
+
 
 body {
 	background-color: LightGrey;
@@ -13,14 +22,3 @@ div{
 
 }
 
-.menu-bar {
-	display: inline-block;
-	
-}
-
-header{
-	background-color: white;
-	padding: 1em;
-	
-
-}
