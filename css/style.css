@@ -14,13 +14,26 @@ body {
 	padding: 0px;
 }
 
+div{
+	border: 1px solid Chocolate;
+
+}
+
+.content {
+	margin: 0 auto;
+	width: 40rem;
+
+}
+
+/* Navigation Bar */
+
 .top-navigation {
 	background-color: #fff;
 
 }
 
 
-.top-navigation .content {
+.top-navigation .content{
 	width: 60rem;
 	height: 4.375rem;
 	margin: 0 auto;
@@ -35,30 +48,86 @@ body {
 
 .top-navigation .links {
 	float: right;
-	margin-top: 1.6rem;
+	margin-top: 25px;
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: .03em;
 }
 
-.top-navigation .active {
+.top-navigation .links .active {
 	color: #4c4058;
 	font-weight:500;
 }
 
-.links > li {
+.top-navigation .links li {
 	display: inline-block;
 	margin-left: 1rem;
+	
+}
+
+.top-navigation .links li:hover {
+	color: black;
 	cursor: pointer;
 }
 
-.links > li:hover {
-	color: black;
+/* Introduction Section */
+
+.introduction {
+	background-image: url(images/first-background.jpg);
+	background-repeat: no-repeat;	
+	/*width: 100%;*/
+	height: 45.938rem;
+	background-size: cover;
+	/*text-align: center;*/
+	background-position: center bottom;
+}
+.introduction-heading {
+	color: white;
+	font-size: 3.125rem;
+	font-weight: 300;
+	margin-top: 12rem;
+	text-align: center;
+}
+
+.introduction-description {
+	color: white;
+	font-size: 1.75rem;
+	font-weight: 300;
+	margin-top: -2rem;
+	text-align: center;
+}
+
+/* button */
+
+.introduction .buttons {
+	color: white;
+	text-align: center;
+	margin-top: -10px;
+}
+
+button {
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	background-color: #f15a29;
+	color: white;
+	width: 10rem;
+	padding: 1rem 1.5rem;
+	font-size: 1.25rem;
+	font-weight: 300;
 
 }
 
-div{
-	border: 1px solid Chocolate;
-
+button:hover {
+	background-color: #ff471a;
+	border-color: #cf3d0e;
+	cursor: pointer;
 }
+
+
+
+
+
+
 
