@@ -15,7 +15,7 @@ body {
 }
 
 div{
-	border: 1px solid Chocolate;
+	border: 1px solid transparent;
 
 }
 
@@ -133,9 +133,12 @@ button:hover {
 
 .three-iconsection {
 	background-color: white;
+	margin
 }
 
-
+.three-iconsection .content{
+	min-width: 60rem;
+}
 
 .three-iconsection .heading {
 	margin-top: 6.25rem;
@@ -145,11 +148,13 @@ button:hover {
 
 }
 
+.three-iconsection .cases {
+	margin-bottom: 6.25rem;
+}
 
 .three-iconsection .devices{
 	width: 33.3333%;
 	display: inline-block;
-	border: 1px solid black;
 	box-sizing: border-box;
 	list-style-type: none;
 	height:4em;
@@ -165,3 +170,48 @@ button:hover {
 	font-weight: 300;
 	
 }
+
+.social {
+	text-align: center;
+	margin: 0 auto;
+	border-top: 1px solid #eaebec;
+}
+
+.social .icons{
+	margin-right: 40px;
+}
+
+.social .contact-info{
+	font-weight: 300;
+}
+
+.social .company-info {
+	font-weight: 300;
+	color: #838994;
+}
+
+.icons li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+ .fa-twitter,
+ .fa-facebook,
+ .fa-instagram {
+	border: 1pt solid #eaebec;
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	padding: .625em 0;
+
+}
+.twitter {
+	color: #55acee;
+}
+.facebook {
+	color:#4c66a4;
+}
+.instagram {
+	color:#3f729b;
+}
+
