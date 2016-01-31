@@ -21,7 +21,8 @@ div{
 
 .content {
 	margin: 0 auto;
-	width: 40rem;
+	min-width: 37.5rem;
+	max-width: 60rem;
 
 }
 
@@ -29,6 +30,9 @@ div{
 
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 
 }
 
@@ -125,9 +129,39 @@ button:hover {
 	cursor: pointer;
 }
 
+/*three-icon section*/
+
+.three-iconsection {
+	background-color: white;
+}
 
 
 
+.three-iconsection .heading {
+	margin-top: 6.25rem;
+	text-align: center;
+	font-weight: 300;
+	font-size: 3rem;
+
+}
 
 
+.three-iconsection .devices{
+	width: 33.3333%;
+	display: inline-block;
+	border: 1px solid black;
+	box-sizing: border-box;
+	list-style-type: none;
+	height:4em;
+	text-align: center;
+	font-size: 1rem;
+	font-weight: 300;
+	
+}
 
+
+.three-iconsection .devices h3{
+	font-size: 1.5rem;
+	font-weight: 300;
+	
+}
